@@ -8,7 +8,6 @@ strategy = FVGStrategy(
     rr_ratio=1.2,
     start_time='09:31',
     end_time='10:00',
-    polygon_api_key='pO9FtYtmGMqrS16e7Bw6Prw34ZVGjw5p'
 )
 
 # Fetch data from Polygon.io
