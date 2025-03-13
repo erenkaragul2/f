@@ -1,0 +1,21 @@
+Creating a MQL5 expert advisor
+
+trade time window:9.31-10.00 am NY Time
+trades will take place in 1 minute time frame
+
+Trade setup:
+
+Confluences:
+1) there must be a liquidity sweep. Liquidity sweep is price needs to get over or get under a close swing point and then reverse.
+2)if there is no sweep the price movement needs to be strong we can measure it like if last 2 candles total value is greater than last 4 candles we can count this
+
+Entry:
+1)we will use fair value gaps for entries. for longs top of the first bullish fvg that occur on this time frame will be entry for an limit order. for short bottom of the first bearish fvg that occurd in this time frame.
+
+Stops:
+1)fvg is a 3 candle formation for stops we will use first candles high for shorts and low for longs.
+
+RR:
+We will risk 1% for each trade.
+Take Profit:
+we will put take profit to 1.2R for each trade
